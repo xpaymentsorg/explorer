@@ -1,0 +1,27 @@
+{  
+   "0x6C668FA29735D7b78f295EC38ff2495db0Cc6a16":{
+      "name":"xPaymentsNodeSigner01",
+      "url":"https://xpayments.org",
+      "region":"South America"
+   },
+   "0x6eEa0e70D8497468F46519EF62ABd1f23576774D":{
+   "name":"xPaymentsNodeSigner02",
+   "url":"https://xpayments.org",
+      "region":"South America"
+   },
+   "0x3Bf4625bF7330c2776F5D27ca9BC0FfbE233659a":{
+   "name":"xPaymentsNodeSigner03",
+   "url":"https://xpayments.org",
+   "region":"South America"
+   },
+   "0x030777f39809e19f189B4d904017Dc173B1Ad6E2":{
+      "name":"xPaymentsNodeSigner04",
+      "url":"https://xpayments.org",
+      "region":"South America"
+   },
+   "0x85e625cEc0F5302F7163F873fF5FaA4A86aa00A6":{
+      "name":"xPaymentsNodeSigner05",
+      "url":"https://xpayments.org",
+      "region":"South America"
+   }
+}
