@@ -12,6 +12,8 @@ vendor/
 
 # IDEs and editors
 /.idea
+.idea
+front/.idea
 .project
 .classpath
 .c9/
@@ -20,6 +22,7 @@ vendor/
 *.sublime-workspace
 
 # IDE - VSCode
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -27,6 +30,7 @@ vendor/
 !.vscode/extensions.json
 
 # misc
+front/node_modules
 /.sass-cache
 /connect.lock
 /coverage
@@ -37,6 +41,7 @@ testem.log
 /typings
 
 # e2e
+e2e
 /e2e/*.js
 /e2e/*.map
 
