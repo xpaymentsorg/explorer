@@ -98,7 +98,9 @@
     <div class="card mt-4">
       <div class="card-body">
         <div class="card-title">
-          <img src="../../../assets/icons/search-dark.svg"> SEARCH
+          <button class="navbar-toggler" type="button" (click)="toggleSearch()">
+            <img [src]="showSearch ? '../../../assets/icons/close.svg' : '../../../assets/icons/search-dark.svg'" alt="Search">
+          </button> SEARCH
         </div>
         <app-search class="navbar-search" [ngClass]="{'show': showSearch}"></app-search>
       </div>
