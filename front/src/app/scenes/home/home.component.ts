@@ -19,6 +19,9 @@ import {META_TITLES} from '../../utils/constants';
 })
 
 export class HomeComponent implements OnInit, OnDestroy {
+
+  showSearch = false;
+
   stats$: Observable<Stats> = interval(300000).pipe(
     startWith(0),
     mergeMap(() => this._commonService.getStats())
